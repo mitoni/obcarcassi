@@ -24,7 +24,22 @@ const projects = (await getCollection("projects"))
             width: 80% !important;
             height: 80% !important;
             transform: none !important;
+            pointer-events: none;
         }
+
+        .mobile-description {
+            display: inline !important;
+        }
+    }
+
+    .mobile-description {
+        font-family: melodrama;
+        display: none;
+        color: rgb(var(--red));
+
+            &.title {
+                font-weight: 600;
+            }
     }
         
     .hero {
@@ -202,6 +217,9 @@ const projects = (await getCollection("projects"))
                         data-title={project.data.title}
                         data-description={project.data.description}
                     />
+
+                    <span class="mobile-description title">{project.data.title}</span>
+                    <span class="mobile-description">{project.data.description}</span>
                 </a>
             </div>
         }) }
