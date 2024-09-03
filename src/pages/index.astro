@@ -1,16 +1,199 @@
 ---
+import MainLayout from "../layouts/MainLayout.astro";
+import { getCollection } from "astro:content";
 
+const projects = (await getCollection("projects"))
+    .sort((a, b) => {
+        const aDate = new Date(a.data.date);
+        const bDate = new Date(b.data.date);
+        return bDate.getMilliseconds() - aDate.getMilliseconds();
+})
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<style>
+    @media (max-width: 768px) {
+        .projects {
+            grid-template-columns: 1fr;
+        }
+    }
+        
+    .hero {
+        width: 100%;
+        height: 50vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+            & h2 {
+                font-family: melodrama;
+                font-size: 3rem;
+                font-weight: 300;
+                color: rgb(var(--red));
+            }
+    }
+
+    .projects {
+        max-width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25%;
+    }
+
+    .project-link {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .project-container {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .project-img {
+        align-content: center;
+
+        width: 50%;
+        height: 50%;
+
+        filter: grayscale(0%);
+
+        transition: all var(--time-rg) ease-in-out;
+
+        cursor: none;
+
+        box-shadow: var(--shadow);
+
+            &:hover {
+                filter: grayscale(100%) opacity(0.7) blur(3px);
+            }
+    }
+
+    #display-container {
+        position: fixed;
+        z-index: 8;
+        pointer-events: none;
+
+        transform: translate(-50%, -50%);
+
+        opacity: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        transition: opacity var(--time-rg) ease-in-out;
+
+        color: rgb(var(--red));
+
+            & .display-title {
+                font-family: 'melodrama';
+                font-size: 4rem;
+                font-weight: 600;
+                filter: drop-shadow(var(--shadow));
+            }
+
+            & .display-description {
+                margin-top: var(--spacing-rg);
+                text-align: center;
+                max-width: 20rem;
+                font-size: 2rem;
+                font-weight: 600;
+                filter: drop-shadow(var(--shadow));
+            }
+
+    }
+</style>
+
+<script>
+    import { setClipPath } from "../utils";
+
+    const images = document.querySelectorAll('.project-img');
+
+    for (const image of images) {
+        setClipPath(image as HTMLImageElement);
+    }
+
+    const displayEl = document.querySelector('#display-container')! as HTMLElement;
+    const displayTitleEl = displayEl.querySelector('.display-title')! as HTMLElement;
+    const displayDescriptionEl = displayEl.querySelector('.display-description')! as HTMLElement;
+    const projectsEl = document.querySelector('#projects')! as HTMLElement;
+
+    let current: EventTarget | null;
+
+    function handleMouseEnter(event: Event) {
+        displayEl.style.opacity = "1";
+
+        current = event.target;
+
+        if (!current) return;
+
+        const title = (current as HTMLElement).getAttribute('data-title');
+        const description = (current as HTMLElement).getAttribute('data-description');
+
+        displayTitleEl.innerText = title || "";
+        displayDescriptionEl.innerText = description || "";
+    }
+
+    function handleMouseMove(event: MouseEvent) {
+        let { x, y } = event;
+
+        displayEl.style.left = `${x}px`;
+        displayEl.style.top = `${y}px`;
+    }
+
+    function handleMouseLeave() {
+        displayEl.style.opacity = "0";
+    }
+
+    for (const image of images) {
+        image.addEventListener("mouseenter", handleMouseEnter);
+        image.addEventListener("mouseleave", handleMouseLeave);
+    }
+
+    projectsEl.addEventListener("mousemove", handleMouseMove);
+</script>
+
+<MainLayout>
+    <section class="hero">
+        <h2>I'm Olga, an enviromental advocate and material designer.</h2>
+    </section>
+
+
+    <section class="projects" id="projects">
+        { projects.map((project: any) => {
+            // const dx = Math.floor(Math.random() * 100 - 50) ;
+            // const dy = Math.floor(Math.random() * 50 - 25) ;
+
+            const dx = 0;
+            const dy = 0;
+
+            return <div class="project-container">
+                <a 
+                    class="project-link" 
+                    href=`/projects/${project.slug}`
+                >
+                    <img 
+                        class="project-img" 
+                        style={`transform: translate(${dx}%, ${dy}%)`}
+                        src={project.data.image} alt=""
+                        data-title={project.data.title}
+                        data-description={project.data.description}
+                    />
+                </a>
+            </div>
+        }) }
+    </section>
+
+    <div id="display-container" style="opacity: 0;">
+        <div class="display-title"></div>
+        <div class="display-description"/></div>
+    </div>
+</MainLayout>
+

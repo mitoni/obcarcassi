@@ -1,0 +1,39 @@
+:root {
+  --red: 219, 68, 55;
+  --black: 17, 17, 18;
+  --white: 255, 255, 255;
+
+  --blur: 30px;
+
+  --spacing-xl: 4rem;
+  --spacing-lg: 2rem;
+  --spacing-rg: 1rem;
+
+  --shadow: 0 0 15px rgba(var(--black), 0.15);
+
+  --rounded-full: 999rem;
+
+  --time-rg: 0.333s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "cabinet";
+  font-size: 18px;
+  font-weight: 400;
+  background-size: 15px 15px;
+  background-image: radial-gradient(rgba(var(--red), 0.2) 1px, transparent 0);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+
+  transition: color var(--time-rg) ease-in-out;
+}
+
+a:hover {
+  color: rgb(var(--red));
+}

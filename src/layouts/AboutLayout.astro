@@ -1,0 +1,54 @@
+---
+import MainLayout from "./MainLayout.astro";
+
+const {frontmatter} = Astro.props;
+---
+<style is:global>
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin-top: var(--spacing-xl);
+    }
+
+    .render a {
+        color: rgb(var(--red));
+    }
+
+    b {
+        color: rgb(var(--red));
+    }
+
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-pic {
+        max-width: 70%;
+        border-radius: var(--rounded-rg);
+    }
+</style>
+
+<script>
+    import { setClipPath } from "../utils";
+
+    const profilePic = document.querySelector(".profile-pic");
+
+    if (profilePic) {
+        setClipPath(profilePic as HTMLImageElement);
+    }
+</script>
+
+<MainLayout>
+    <section class="grid">
+        <div class="profile-container">
+            <img class="profile-pic" src={frontmatter.image} alt="profile picture" />
+        </div>
+
+        <div>
+            <slot />
+        </div>
+    </section>
+</MainLayout>

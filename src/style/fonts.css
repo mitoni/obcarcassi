@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "cabinet";
+  src: url("/fonts/cabinet/CabinetGrotesk-Variable.woff2") format("woff2"),
+    url("fonts/cabinet/CabinetGrotesk-Variable.woff") format("woff"),
+    url("fonts/cabinet/CabinetGrotesk-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "melodrama";
+  src: url("fonts/melodrama/Melodrama-Variable.woff2") format("woff2"),
+    url("fonts/melodrama/Melodrama-Variable.woff") format("woff"),
+    url("fonts/melodrama/Melodrama-Variable.ttf") format("truetype");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}

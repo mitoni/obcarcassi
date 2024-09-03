@@ -1,0 +1,55 @@
+<section>
+    <nav>
+        <div class="logo">
+            <a href="/">OBC</a>
+        </div>
+
+        <div class="links">
+            <a href="/about">About</a> /
+            <a href="/publications">Publications</a> /
+            <a href="/research">Research</a> /
+            <a href="/teaching">Teaching</a>
+        </div>
+    </nav>
+</section>
+
+<style>
+    .logo {
+        font-family: 'melodrama';
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: rgba(var(--red));
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        height: 100px;
+
+        position: sticky;
+        top: 0;
+
+        z-index: 9;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(var(--white), 0.8);
+        backdrop-filter: blur(var(--blur));
+        padding: var(--spacing-rg) var(--spacing-lg);
+        box-shadow: var(--shadow);
+        border-radius: var(--rounded-full);
+    }
+
+    .links {
+        display: flex;
+        font-weight: 500;
+        color: rgb(var(--red), 0.8);
+        gap: var(--spacing-rg);
+        font-size: 0.9rem;
+    }
+
+</style>
