@@ -36,6 +36,11 @@ const {frontmatter} = Astro.props;
         border-radius: var(--rounded-rg);
     }
 
+    .content p {
+        text-align: justify;
+        word-break: normal !important;
+    }
+
     a {
         color: rgb(var(--red));
     }
@@ -57,7 +62,7 @@ const {frontmatter} = Astro.props;
             <img class="profile-pic" src={frontmatter.image} alt="profile picture" />
         </div>
 
-        <div>
+        <div class="content">
             <slot />
         </div>
     </section>
