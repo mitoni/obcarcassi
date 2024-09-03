@@ -19,6 +19,10 @@ Moreover, such a strategy is viable for future programmed growth artefacts once 
 
 ![](/data/images/programmed-growth-5.jpg)
 
+<p>
+    <video src="/data/images/programmed-growth-1.mp4" muted controls></video>
+</p>
+
 ## Location
 Material Balance Research (Politecnico di Milano, ABC Departement)
 

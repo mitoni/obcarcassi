@@ -29,7 +29,7 @@ const { Content } = await project.render();
       & h1 {
         font-family: melodrama;
         font-size: 3rem;
-        font-weight: 300;
+        font-weight: 600;
         text-align: center;
         color: rgb(var(--red));
       }
@@ -64,12 +64,13 @@ const { Content } = await project.render();
       margin-block-end: inherit;
     }
 
-    img {
+    img, video {
       max-width: min(1024px, 100%);
+      max-height: min(1024px, 75vh);
       margin: var(--spacing-rg) 0;
     }
 
-    p:has(img) {
+    p:has(img), p:has(video) {
       text-align: center;
     }
 

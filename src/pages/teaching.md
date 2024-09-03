@@ -3,24 +3,28 @@ layout: ../layouts/BasicMarkdownLayout.astro
 ---
 ## Lead Instructor Experience
 ### 2024
-#### “3D Printed Earth – HACKATHON”. Columbia GSAPP Master’s students. With Prof. Dr. Lola Ben-Alon and Prof. Dr. Shiho Kawashima. At Carleton Laboratory (Columbia Engineering). Role: Lead Instructor during five days workshop:
+#### “3D Printed Earth – HACKATHON”. Columbia GSAPP Master’s students. With Prof. Dr. Lola Ben-Alon and Prof. Dr. Shiho Kawashima.<br/>At Carleton Laboratory (Columbia Engineering). 
+Role: Lead Instructor during five days workshop:
 - Supervised and trained master students in digital fabrication and during the 3D printing sessions
 - Supervised students during the design phase to assure the printability of 3D models
 - Defined the extrudable material mixtures (in terms of earth, natural fibers and biopolymers) used during the workshop
 - Prepared the Grasshopper script to generate the GCODE for 3D-printing with the SCARA Elite v2 robotic arm.
 
 ### 2023
-#### “Circular Materials scouting”. MRAC students. At Master Material Balance Design: Digital techniques and circular innovations in architecture (Politecnico di Milano). Role: Faculty member 
+#### “Circular Materials scouting”. MRAC students.<br/>At Master Material Balance Design: Digital techniques and circular innovations in architecture (Politecnico di Milano). 
+Role: Faculty member 
 - Prepared lectures on the most used construction materials in terms of their origin, processes, sustainability and availability
 - Advised on the material selection phase of the students’ annual project 
 
 ### 2022
-#### "Material stories - between metrics and narrative”. MRAC01 students At IAAC- Institute for Advanced Architecture of Catalonia. Role: Faculty member
+#### "Material stories - between metrics and narrative”.<br/>MRAC01 students At IAAC- Institute for Advanced Architecture of Catalonia. 
+Role: Faculty member
 - Prepared lectures on the most used construction materials in terms of their origin, processes, sustainability metrics and availability
 - Moderate on  the “material debate” among students 
 
 ### 2022
-#### “Material Balance Design and Sustainable Products”. MRAC students. At SOS School of Sustainability master’s in Design for Sustainability. Role: Faculty member
+#### “Material Balance Design and Sustainable Products”. MRAC students.<br/>At SOS School of Sustainability master’s in Design for Sustainability. 
+Role: Faculty member
 - Prepared lectures on materiality and textures of construction materials
 
 ### Teaching Assistant
@@ -35,6 +39,7 @@ Retrofit and conservation of buildings + Laboratory ABC Department Politecnico d
 ## Invited Studio Critic
 ### Columbia University	Material Kitchens: Mix Designs, Recipes, and Erroneous Imitations | Lola Ben-Alon 2024
 Tech 5 Construction + Life Cycle Systems | Lola Ben-Alon and Tommy Schaperkotter 2023
+
 Architecture Studio V | Ada Tolla & Giuseppe Lignano 2023	
 
 ### Pratt Institute

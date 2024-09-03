@@ -8,10 +8,12 @@ import Navbar from "../components/navbar.astro";
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <meta name="description" content="I'm Olga, an enviromental advocate and material designer.">
+        <link rel="sitemap" href="/sitemap-index.xml" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍄‍🟫</text></svg>">
+		<title>Olga Beatrice Carcassi</title>
 	</head>
 
 	<body>
@@ -23,7 +25,7 @@ import Navbar from "../components/navbar.astro";
         </main>
 
         <footer>
-            <a href="mailto:o.carcassi@gmail.com">Contact me</a>
+            <a href="mailto:o.carcassi@gmail.com">Contact me!</a>
             <span class="cc">2024 OBC</span>
         </footer>
 	</body>
@@ -42,19 +44,22 @@ import Navbar from "../components/navbar.astro";
 
     footer {
         max-width: 1280px;
-        margin: 0 auto;
-        margin-top: 100px;
-        height: 100px;
+        margin: 10rem auto var(--spacing-lg);
 
         color: rgb(var(--red));
+
+        background-color: rgba(var(--white), 0.8);
+        backdrop-filter: blur(var(--blur));
+        padding: var(--spacing-rg) var(--spacing-lg);
+        box-shadow: var(--shadow);
+        border-radius: var(--rounded-full);
 
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        border-top: 1px solid rgb(var(--red));
-
-        padding: 0 var(--spacing-lg);
+        font-size: 0.9rem;
+        font-weight: 600;
 
         & .cc {
             color: rgba(var(--red), 0.8);

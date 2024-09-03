@@ -12,7 +12,12 @@ NDIDI is a computationally designed stool made from earth-based and mezcal resid
 By combining advanced technologies and codesign principles with the manual skills of women from Mexican rural communities, NDIDI not only offers alternatives for local development but also points towards a more regenerative future.
 
 ![](/data/images/ndidi-3.jpg)
+
 ![](/data/images/ndidi-4.jpg)
+
+<p>
+    <video src="/data/images/ndidi-computation.mp4" muted controls></video>
+</p>
 
 ## Exhibition
 Mexico Design Week 2024

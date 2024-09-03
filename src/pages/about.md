@@ -15,4 +15,6 @@ Previously, Olga was a Postdoctoral Researcher at the ABC Department of <b>Polit
 
 Olga’s work has been published in <b>Environmental Science & Technology</b> and Automation in Construction journals, and she contributed to the design of different installations within architectural exhibitions to disseminate her scientific results, such as the “Unknown Unknowns- 23rd International Exhibition” at <b>Triennale di Milano</b>, and "NDIDI” at the upcoming Mexico Design Week 2024.
 
+---
+
 [Linkedin](https://www.linkedin.com/in/olga-beatrice-carcassi-0912aa122/) / [Email](mailto:obc2101@columbia.edu)
