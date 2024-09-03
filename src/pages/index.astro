@@ -4,16 +4,26 @@ import { getCollection } from "astro:content";
 
 const projects = (await getCollection("projects"))
     .sort((a, b) => {
-        const aDate = new Date(a.data.date);
-        const bDate = new Date(b.data.date);
-        return bDate.getMilliseconds() - aDate.getMilliseconds();
-})
+            const aDate = a.data.date.valueOf();
+            const bDate = b.data.date.valueOf()
+            return bDate - aDate
+    })
 ---
 
 <style>
     @media (max-width: 768px) {
         .projects {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr !important;
+            row-gap: 5% !important;
+        }
+
+        .hero h2 {
+            font-size: 2rem !important;
+        }
+
+        .project-img {
+            width: 80% !important;
+            height: 80% !important;
         }
     }
         
@@ -39,12 +49,14 @@ const projects = (await getCollection("projects"))
 
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 25%;
+        gap: 10rem;
     }
 
     .project-link {
         display: inline-flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: var(--spacing-rg)
     }
 
     .project-container {
@@ -58,8 +70,8 @@ const projects = (await getCollection("projects"))
     .project-img {
         align-content: center;
 
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
 
         filter: grayscale(0%);
 
@@ -93,19 +105,23 @@ const projects = (await getCollection("projects"))
         color: rgb(var(--red));
 
             & .display-title {
-                font-family: 'melodrama';
-                font-size: 4rem;
+                font-family: melodrama;
+                font-size: 3rem;
                 font-weight: 600;
+                text-align: center;
+                width: 60rem;
                 filter: drop-shadow(var(--shadow));
+                word-break: normal !important;
             }
 
             & .display-description {
                 margin-top: var(--spacing-rg);
                 text-align: center;
-                max-width: 20rem;
+                width: 30rem;
                 font-size: 2rem;
                 font-weight: 600;
                 filter: drop-shadow(var(--shadow));
+                word-break: normal !important;
             }
 
     }
@@ -162,16 +178,14 @@ const projects = (await getCollection("projects"))
 
 <MainLayout>
     <section class="hero">
-        <h2>I'm Olga, an enviromental advocate and material designer.</h2>
+        <h2>I'm <u>Olga</u>, an enviromental advocate and material designer.</h2>
     </section>
 
 
     <section class="projects" id="projects">
         { projects.map((project: any) => {
-            // const dx = Math.floor(Math.random() * 100 - 50) ;
+            const dx = Math.floor(Math.random() * 60 - 30) ;
             // const dy = Math.floor(Math.random() * 50 - 25) ;
-
-            const dx = 0;
             const dy = 0;
 
             return <div class="project-container">

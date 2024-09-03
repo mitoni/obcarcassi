@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 image: /data/images/profile-pic.jpg
 ---
 
-## About me
+# About me
 
 Olga Beatrice Carcassi is an <b>Associate Research Scientist</b> at the Natural Materials of <b>Columbia GSAPP University</b>. 
 
