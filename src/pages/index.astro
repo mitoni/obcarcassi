@@ -4,8 +4,8 @@ import { getCollection } from "astro:content";
 
 const projects = (await getCollection("projects"))
     .sort((a, b) => {
-            const aDate = a.data.date.valueOf();
-            const bDate = b.data.date.valueOf()
+            const aDate = (a.data.date ?? new Date(0)).valueOf();
+            const bDate = (b.data.date ?? new Date(0)).valueOf()
             return bDate - aDate
     })
 ---
@@ -162,7 +162,7 @@ const projects = (await getCollection("projects"))
 
     let current: EventTarget | null;
 
-    function handleMouseEnter(event: Event) {
+   function handleMouseEnter(event: Event) {
         displayEl.style.opacity = "1";
 
         current = event.target;

@@ -3,7 +3,6 @@ title: ?what do WE DO with you
 description: When waste becomes treasure 
 image: /data/images/wedo-1.jpg
 type: research
-date: 2024-08-30
 ---
 This project aims to create a web application that connects organic waste producers (referred to as GIVERS) with designers and creators (referred to as USERS) who are interested in developing products using locally sourced materials.
 
