@@ -14,7 +14,6 @@ const projects = (await getCollection("projects"))
     @media (max-width: 768px) {
         .projects {
             grid-template-columns: 1fr !important;
-            row-gap: 5% !important;
         }
 
         .hero h2 {
@@ -24,6 +23,7 @@ const projects = (await getCollection("projects"))
         .project-img {
             width: 80% !important;
             height: 80% !important;
+            transform: none !important;
         }
     }
         

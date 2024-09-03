@@ -25,13 +25,14 @@
             height: 100vh;
             background-color: rgba(var(--white), 0.6);
             backdrop-filter: blur(var(--blur));
+            -webkit-backdrop-filter: blur(var(--blur));
             transform: translateX(100%);
 
             transition: transform var(--time-rg) ease-in-out;
 
             z-index: 8;
 
-            display: flex;
+            display: flex !important;
             flex-direction: column;
             justify-content: center;
             align-items: center;
