@@ -4,7 +4,7 @@
     url("fonts/cabinet/CabinetGrotesk-Variable.woff") format("woff"),
     url("fonts/cabinet/CabinetGrotesk-Variable.ttf") format("truetype");
   font-weight: 100 900;
-  font-display: swap;
+  font-display: fallback;
   font-style: normal;
 }
 
@@ -14,6 +14,6 @@
     url("/fonts/melodrama/Melodrama-Variable.woff") format("woff"),
     url("/fonts/melodrama/Melodrama-Variable.ttf") format("truetype");
   font-weight: 300 700;
-  font-display: swap;
+  font-display: fallback;
   font-style: normal;
 }
