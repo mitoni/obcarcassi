@@ -43,3 +43,4 @@ Kelechi Iheanacho (Natural Materials Lab)
 https://coaa.mx/design-week-2024-ndidi-innovacion-y-sustentabilidad-en-el-diseno-global/
 
 ## Photo Credits
+Alejandro Montes González
