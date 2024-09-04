@@ -49,10 +49,10 @@ const {frontmatter} = Astro.props;
 <script>
     import { setClipPath } from "../utils";
 
-    const profilePic = document.querySelector(".profile-pic");
+    const profilePic = document.querySelector(".profile-pic") as HTMLImageElement;
 
     if (profilePic) {
-        setClipPath(profilePic as HTMLImageElement);
+        setClipPath(profilePic);
     }
 </script>
 

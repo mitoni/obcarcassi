@@ -17,4 +17,4 @@ Olga’s work has been published in <b>Environmental Science & Technology</b> an
 
 ---
 
-[Linkedin](https://www.linkedin.com/in/olga-beatrice-carcassi-0912aa122/) / [Email](mailto:obc2101@columbia.edu)
+[Curriculum Vitae](https://drive.google.com/file/d/1kGTTlxTiJYfBsmd2tTO2SN61OpFaITzH/view) / [Linkedin](https://www.linkedin.com/in/olga-beatrice-carcassi-0912aa122/) / [Email](mailto:obc2101@columbia.edu)
