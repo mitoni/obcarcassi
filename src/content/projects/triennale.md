@@ -5,9 +5,15 @@ image: /data/images/triennale-1.jpg
 type: exhibition
 date: 2021-07-30
 ---
-The Alchemic laboratory is an experiential place that invites the visitor to question the concept of matter. The laboratory is yellow: yellow like that of nature – which serves to attract pollination –, yellow like the lights that protect the micro-electronics sensors from direct radiation and finally citrinas – yellow lemon – as one of the four colors of the alchemical transmutation.
+The Alchemic laboratory is an experiential place that invites the visitor to question the concept of matter.
 
-We tend to think at the transformation of matter as a linear and predictable scientific process, but what happens if the boundaries between natural/artificial, alive/inert, extractive/grown, blur? A series of energy, environmental, health and social crises has given us a bitter lesson: nature can be unavailable and not respond to our desires. So, if we lose the control of the process, if we believe in a new conscious material culture, if the material asserts its design reasons, this path opens to imagination, to the unexpected, to the creative vitality.
+The laboratory is yellow: yellow like that of nature – which serves to attract pollination –, yellow like the lights that protect the micro-electronics sensors from direct radiation and finally citrinas – yellow lemon – as one of the four colors of the alchemical transmutation.
+
+We tend to think at the transformation of matter as a linear and predictable scientific process, but what happens if the boundaries between natural/artificial, alive/inert, extractive/grown, blur?
+
+A series of energy, environmental, health and social crises has given us a bitter lesson: nature can be unavailable and not respond to our desires.
+
+So, if we lose the control of the process, if we believe in a new conscious material culture, if the material asserts its design reasons, this path opens to imagination, to the unexpected, to the creative vitality.
 
 ![](/data/images/triennale-1.jpg)
 

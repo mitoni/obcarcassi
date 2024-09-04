@@ -43,15 +43,10 @@ const { Content } = await project.render();
       }
     }
 
-    p,
-    li,
-    ul {
-      line-height: 1.5;
-    }
-
-    p {
-      margin-block-start: var(--spacing-xl);
-      margin-block-end: var(--spacing-xl);
+    .content {
+        max-width: 1024px;
+        margin: 0 auto;
+        text-align: justify;
     }
 
     h1 + p,
@@ -71,6 +66,8 @@ const { Content } = await project.render();
     }
 
     p:has(img), p:has(video) {
+      margin-block-start: var(--spacing-xl);
+      margin-block-end: var(--spacing-xl);
       text-align: center;
     }
 
@@ -86,7 +83,7 @@ const { Content } = await project.render();
         <span class="subtitle">{project.data.type.toUpperCase()} \ {project.data.date ? project.data.date.getFullYear() : null}</span>
     </section>
 
-    <section>
+    <section class="content">
         <Content />
     </section>
 </MainLayout>

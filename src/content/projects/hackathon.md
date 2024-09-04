@@ -5,7 +5,10 @@ image: /data/images/hack-7.jpg
 type: research
 date: 2024-01-30
 ---
-This hackathon aims to provide an immersive, hands-on exploration into various earth-based materials and their digital fabrication through 3D printing. Drawing inspiration from traditional techniques like adobe and exploring speculative geometries across different scales, we aim to envision potential futures for earth materials.
+This hackathon aims to provide an immersive, hands-on exploration into various earth-based materials and their digital fabrication through 3D printing. 
+
+Drawing inspiration from traditional techniques like adobe and exploring speculative geometries across different scales, we aim to envision potential futures for earth materials.
+
 For the final stage, 10 students collaborated in teams to create inventive earth-based design fabrications. 
 
 ![](/data/images/hack-1.jpg)

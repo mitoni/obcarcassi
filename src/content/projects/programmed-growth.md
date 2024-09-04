@@ -5,11 +5,19 @@ image: /data/images/programmed-growth-1.jpg
 type: research
 date: 2022-11-30
 ---
-Through 3D printing of a mixture of clay and natural fibres, this research proposes a first design experimentation to understand the parameters that influence mycelium materials' growth, including inoculation (IS) and fabrication strategies (FS). Given the broad spectrum of complex, interrelated variables, the aim is to provide insight based on many empirical experiments and visual inspection through a series of prototypes. The growth behaviour of mycelium and the visual inspection highlight that the inoculation strategy with a post-inoculation of mycelium in the substrate is the one that assures maximal mycelium colonization. Through empirical testing, we demonstrated control over the growth process by guiding the manual insertion of mycelium spawn with undulated areas on the printed surface generated through an image sampling algorithm. 
+Through 3D printing of a mixture of clay and natural fibres, this research proposes a first design experimentation to understand the parameters that influence mycelium materials' growth, including inoculation (IS) and fabrication strategies (FS).
+
+Given the broad spectrum of complex, interrelated variables, the aim is to provide insight based on many empirical experiments and visual inspection through a series of prototypes.
+
+The growth behaviour of mycelium and the visual inspection highlight that the inoculation strategy with a post-inoculation of mycelium in the substrate is the one that assures maximal mycelium colonization.
+
+Through empirical testing, we demonstrated control over the growth process by guiding the manual insertion of mycelium spawn with undulated areas on the printed surface generated through an image sampling algorithm. 
 
 ![](/data/images/programmed-growth-3.jpg)
 
-Moreover, such a strategy is viable for future programmed growth artefacts once the interactive insertion of mycelium spawn is substituted with a multi-material technique allowing for controlled growth in selective areas induced by the fabrication technique. In terms of resource optimization, the FS that optimizes the use of the material is the most favourable since it was possible to obtain the same final colonized geometry with less material. 
+Moreover, such a strategy is viable for future programmed growth artefacts once the interactive insertion of mycelium spawn is substituted with a multi-material technique allowing for controlled growth in selective areas induced by the fabrication technique.
+
+In terms of resource optimization, the FS that optimizes the use of the material is the most favourable since it was possible to obtain the same final colonized geometry with less material. 
 
 ![](/data/images/programmed-growth-2.jpg)
 

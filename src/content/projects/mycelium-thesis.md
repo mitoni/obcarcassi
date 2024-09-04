@@ -6,6 +6,7 @@ type: research
 date: 2018-11-30
 ---
 This project wants to propose a design strategy to achieve the climate-neutrality for buildings with the use of fast-growing biomass insulation materials as GHG compensation.
+
 Moreover, to lower the impacts also in the construction phase, it investigates the creation of sustainable materials and production cycles by exploiting the mycelium growth as a binder and create 100% bio-based insulation composites. 
 
 ![](/data/images/mycelium-phd-5.jpg)
