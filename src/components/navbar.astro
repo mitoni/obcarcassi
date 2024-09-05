@@ -116,6 +116,8 @@
         display: inline-flex;
         align-items: center;
         white-space: nowrap;
+
+        transition: opacity var(--time-sm) ease-in-out;
     }
 
     .logo-letter-container {
@@ -135,6 +137,7 @@
     const mobileMenu = document.querySelector(".mobile-menu") as HTMLElement;
     const icon = document.querySelector(".mobile-links img") as HTMLElement;
     const letters = document.querySelectorAll("div.logo div.logo-letter-container");
+    const hidden = document.querySelectorAll("div.logo div.logo-letter-hidden");
 
     document.querySelector(".mobile-links a")?.addEventListener("click", () => {
         if (!mobileMenu || !icon) return;
@@ -155,12 +158,20 @@
             const w = letter.getAttribute("data-width");
             (letter as HTMLElement).style.width = `${w}px`;
         })
+
+        hidden.forEach(letter => {
+            (letter as HTMLElement).style.opacity = "1"
+        })
     })
 
     document.querySelector(".logo")?.addEventListener("mouseleave", () => {
         letters.forEach(letter => {
             const w = letter.getAttribute("data-width");
             (letter as HTMLElement).style.width = "0px";
+        })
+
+        hidden.forEach(letter => {
+            (letter as HTMLElement).style.opacity = "0"
         })
     })
 </script>
