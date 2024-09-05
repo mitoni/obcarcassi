@@ -6,15 +6,22 @@
 
         .mobile-links {
            display: flex !important;
+           align-items: center;
+           color: rgb(var(--red));
 
-           & img {
-               height: 1rem;
-               transition: transform var(--time-rg) ease-in-out;
-           }
+               & a {
+                   display: inline-flex;
+               }
+
+               & img {
+                   height: 1rem;
+                   transition: transform var(--time-rg) ease-in-out;
+               }
         }
 
         nav {
-            margin: 0 var(--spacing-rg)
+            margin: 0 var(--spacing-rg);
+            padding: var(--spacing-rg) calc(1.5 * var(--spacing-lg)) !important;
         }
 
         .mobile-menu {
@@ -40,6 +47,14 @@
             font-size: 1.5rem;
             gap: var(--spacing-rg);
         }
+
+        .menu {
+            -webkit-mask: url(/assets/menu.svg) no-repeat center;
+            mask: url(/assets/menu.svg) no-repeat center;
+            height: 2rem;
+            width: 2rem;
+            background-color: rgb(var(--red));
+        }
     }
 
     .mobile-links, .mobile-menu {
@@ -50,6 +65,7 @@
         font-family: melodrama;
         font-size: 1.5rem;
         font-weight: 800;
+        height: 2rem;
         color: rgba(var(--red));
    }
 
@@ -86,6 +102,31 @@
         gap: var(--spacing-rg);
         font-size: 0.9rem;
     }
+
+    .logo a {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .logo-letter-hidden {
+        position: absolute;
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .logo-letter-container {
+        position: relative;
+        display: inline-flex;
+        width: 0px;
+        height: 100%;
+        overflow-x: hidden;
+
+        transition: width var(--time-sm) ease-in-out;
+    }
 </style>
 
 <script>
@@ -93,6 +134,7 @@
 
     const mobileMenu = document.querySelector(".mobile-menu") as HTMLElement;
     const icon = document.querySelector(".mobile-links img") as HTMLElement;
+    const letters = document.querySelectorAll("div.logo div.logo-letter-container");
 
     document.querySelector(".mobile-links a")?.addEventListener("click", () => {
         if (!mobileMenu || !icon) return;
@@ -107,13 +149,29 @@
 
         icon.style.transform = open ? "rotate(90deg)" : "rotate(0deg)";
     })
+
+    document.querySelector(".logo")?.addEventListener("mouseenter", () => {
+        letters.forEach(letter => {
+            const w = letter.getAttribute("data-width");
+            (letter as HTMLElement).style.width = `${w}px`;
+        })
+    })
+
+    document.querySelector(".logo")?.addEventListener("mouseleave", () => {
+        letters.forEach(letter => {
+            const w = letter.getAttribute("data-width");
+            (letter as HTMLElement).style.width = "0px";
+        })
+    })
 </script>
 
 <section>
     <nav>
         <div class="logo">
             <a href="/">
-                OBC
+                <div class="logo-letter">O</div><div class="logo-letter-container" data-width="30.84"><div class="logo-letter-hidden">lga</div></div>
+                <div class="logo-letter">B</div><div class="logo-letter-container" data-width="81.03"><div class="logo-letter-hidden">eatrice</div></div>
+                <div class="logo-letter">C</div><div class="logo-letter-container" data-width="76.63"><div class="logo-letter-hidden">arcassi</div></div>
             </a>
         </div>
 
@@ -125,8 +183,7 @@
         </div>
 
         <div class="mobile-links">
-            <a>
-                <img src="/assets/menu.svg" alt="menu" />
+            <a class="menu">
             </a>
         </div>
     </nav>
