@@ -1,6 +1,12 @@
 ---
 import MainLayout from "./MainLayout.astro";
 ---
+<style is:global>
+    .main a {
+        text-decoration: underline;
+    }
+</style>
+
 <MainLayout>
     <slot />
 </MainLayout>

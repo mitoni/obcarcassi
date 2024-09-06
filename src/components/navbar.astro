@@ -166,7 +166,6 @@
 
     document.querySelector(".logo")?.addEventListener("mouseleave", () => {
         letters.forEach(letter => {
-            const w = letter.getAttribute("data-width");
             (letter as HTMLElement).style.width = "0px";
         })
 
