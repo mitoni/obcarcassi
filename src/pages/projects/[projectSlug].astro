@@ -81,7 +81,7 @@ const { Content } = await project.render();
     <section class="hero">
         <h1>{project.data.title}</h1>
         <h2>{project.data.description}</h2>
-        <span class="subtitle">{project.data.type.toUpperCase()} \ {project.data.date ? project.data.date.getFullYear() : null}</span>
+        <span class="subtitle">{project.data.type.toUpperCase()} {project.data.date ? ` / ${project.data.date.getFullYear()}` : null}</span>
     </section>
 
     <section class="content">

@@ -5,8 +5,16 @@ import MainLayout from "./MainLayout.astro";
     .main a {
         text-decoration: underline;
     }
+
+    .content {
+        max-width: 1024px;
+        margin: 0 auto;
+        text-align: justify;
+    }
 </style>
 
 <MainLayout>
-    <slot />
+    <section class="content">
+        <slot />
+    </section>
 </MainLayout>
