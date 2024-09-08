@@ -90,6 +90,7 @@
         backdrop-filter: blur(var(--blur));
         -webkit-backdrop-filter: blur(var(--blur));
 
+        margin: 0 var(--spacing-rg);
         padding: var(--spacing-rg) var(--spacing-lg);
         box-shadow: var(--shadow);
         border-radius: var(--rounded-full);
@@ -166,7 +167,6 @@
 
     document.querySelector(".logo")?.addEventListener("mouseleave", () => {
         letters.forEach(letter => {
-            const w = letter.getAttribute("data-width");
             (letter as HTMLElement).style.width = "0px";
         })
 
