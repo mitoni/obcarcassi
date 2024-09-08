@@ -38,7 +38,7 @@ In fact, with 3D printing, its fabrication used ‘minima materia’, thus minim
 October - December 2019
 
 ## Location
-London
+London (UK)
 
 ## Collaborators
 Curated by: Atelier Luma

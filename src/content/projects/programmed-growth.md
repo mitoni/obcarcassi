@@ -32,7 +32,7 @@ In terms of resource optimization, the FS that optimizes the use of the material
 </p>
 
 ## Location
-Material Balance Research (Politecnico di Milano, ABC Departement)
+Material Balance Research (Politecnico di Milano, ABC Departement, Milan, IT)
 
 ## Collaborators
 Prof. Ingrid Paoletti (Politecnico di Milano), Kunaljit Chada (IAAC Barcelona), Giulia Grassi (Politencico di Milano)

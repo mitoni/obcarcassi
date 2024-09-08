@@ -28,7 +28,7 @@ Mexico Design Week 2024
 October - December 2024
 
 ## Location
-Mexico City (mx)
+Mexico City (MX)
 
 ## Collaborators
 Alejandro Montes González (COAA)

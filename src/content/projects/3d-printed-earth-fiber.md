@@ -13,14 +13,21 @@ Characterization of the optimal mix designs for 3D printed earth materials and s
 
 ![](/data/images/digital-earth-4.jpg)
 
+![](/data/images/digital-earth-4-1.jpg)
+
 ![](/data/images/digital-earth-5.jpg)
 
 ![](/data/images/digital-earth-6.jpg)
 
 ![](/data/images/digital-earth-7.jpg)
 
+<p>
+    <video src="/data/images/digital-earth.mp4" muted controls loop></video>
+</p>
+
+
 ## Exhibition
-1014 space for ideas 2023 and London Craft Week 2024
+1014 space for ideas 2023 (New York City, USA) and London Craft Week 2024 (London. UK)
 
 ## Location
 Natural Materials Lab (Columbia University GSAPP)

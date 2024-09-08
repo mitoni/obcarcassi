@@ -18,7 +18,7 @@ Moreover, to lower the impacts also in the construction phase, it investigates t
 ![](/data/images/mycelium-phd-4.jpg)
 
 ## Location
-Material Balance Research (Politecnico di Milano, ABC Departement) and Chair of Sustainable Construction (ETH Zurich)
+Material Balance Research (Politecnico di Milano, ABC Departement, IT) and Chair of Sustainable Construction (ETH Zurich, CH)
 
 ## Collaborators
 Prof. Ingrid Paoletti (Politecnico di Milano), Prof. Laura Elisabetta Malighetti (Politecnico di Milano), Prof. Francesco Pittau (Politecnico di Milano), Guillaume Habert (ETH Zurich), Stefano Gomarasca (Università Statale di Milano)

@@ -28,7 +28,7 @@ For the final stage, 10 students collaborated in teams to create inventive earth
 </p>
 
 ## Location
-Natural Materials Lab (Columbia University GSAPP)
+Natural Materials Lab (Columbia University GSAPP, New York City, USA)
 
 ## Collaborators
 Prof. Lola Ben-Alon (PI, Columbia University), Prof. Shiho Kawashima (Co-Pi, Columbia Engineering), Yierfan Mardan (Columbia Engineering), Samuel Armistead (CU Boulder)
@@ -37,7 +37,7 @@ Prof. Lola Ben-Alon (PI, Columbia University), Prof. Shiho Kawashima (Co-Pi, Col
 EunJin Shin
 
 ## Students:
-Jennah Christina Jones, Danyel Hueyopan, Eddy Voltaire, Shrey Bindesh Patel and Soo Jin Yim for the bench design and fabrication, and Ahamed Abrar Kulam Mohamed Saleem, Christina Huang, Hui Chen, Saumil Mehul Sanghavi, Simar Kaur Kochhar
+Jennah Christina Jones, Danyel Hueyopan, Eddy Voltaire, Shrey Bindesh Patel and Soo Jin Yim for the bench design and fabrication, and Ahamed Abrar Kulam Mohamed Saleem, Christina Huang, Hui Chen, Saumil Mehul Sanghavi, Simar Kaur Kochhar the table design and fabrication.
 
 ## Contribution
 - Supervised and trained master students in digital fabrication and during the 3D printing sessions
