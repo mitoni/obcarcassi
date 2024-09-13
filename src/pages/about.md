@@ -5,7 +5,7 @@ image: /data/images/profile-pic.jpg
 
 # About me
 
-Olga Beatrice Carcassi is an <b>Associate Research Scientist</b> at the Natural Materials of <b>Columbia GSAPP University</b>. 
+Olga Beatrice Carcassi is an <b>Associate Research Scientist</b> at the [Natural Materials Lab](https://www.arch.columbia.edu/research/labs/17-natural-materials-lab) of <b>Columbia GSAPP University</b>. 
 
 Passionate about regenerative and low-carbon technologies, Olga’s work catalyzes the field of <b>3D printed natural materials and architectural artifacts</b>, from both a building science research and digital manufacturing perspective. 
 
