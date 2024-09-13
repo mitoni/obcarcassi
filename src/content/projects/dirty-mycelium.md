@@ -7,25 +7,13 @@ date: 2024-02-28
 ---
 This project confronts the controlled environmental conditions required to cultivate biological mycelium-based composites by developing “dirty” soil-based substrates for pleurotus ostreatus mycelium strands.
 
-![](/data/images/dirty-mycelium-1.jpg)
-
-![](/data/images/dirty-mycelium-2.jpg)
-
-![](/data/images/dirty-mycelium-3.jpg)
-
-![](/data/images/dirty-mycelium-4.jpg)
-
-![](/data/images/dirty-mycelium-5.jpg)
-
-![](/data/images/dirty-mycelium-6.jpg)
-
-![](/data/images/dirty-mycelium-7.jpg)
-
-![](/data/images/dirty-mycelium-8.jpg)
-
-![](/data/images/dirty-mycelium-9.jpg)
-
-![](/data/images/dirty-mycelium-10.jpg)
+|   |   |
+|---|---|
+|![](/data/images/dirty-mycelium-1.jpg)|![](/data/images/dirty-mycelium-2.jpg)|
+|![](/data/images/dirty-mycelium-3.jpg)|![](/data/images/dirty-mycelium-4.jpg)|
+|![](/data/images/dirty-mycelium-5.jpg)|![](/data/images/dirty-mycelium-6.jpg)|
+|![](/data/images/dirty-mycelium-7.jpg)|![](/data/images/dirty-mycelium-8.jpg)|
+|![](/data/images/dirty-mycelium-9.jpg)|![](/data/images/dirty-mycelium-10.jpg)|
 
 Embarking on one of nature’s architects: mycelium, this project includes a tile system fabricating with molding techniques. The main goal is to investigate thresholds and the potentials of growing mycelium on light fiber-clay mixture designs within “dirty” settings.
 
