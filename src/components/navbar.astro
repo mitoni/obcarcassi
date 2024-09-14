@@ -11,10 +11,6 @@
 
                & a {
                    display: inline-flex;
-               }
-
-               & img {
-                   height: 1rem;
                    transition: transform var(--time-rg) ease-in-out;
                }
         }
@@ -136,7 +132,7 @@
     let open = false;
 
     const mobileMenu = document.querySelector(".mobile-menu") as HTMLElement;
-    const icon = document.querySelector(".mobile-links img") as HTMLElement;
+    const icon = document.querySelector(".mobile-links a") as HTMLElement;
     const letters = document.querySelectorAll("div.logo div.logo-letter-container");
     const hidden = document.querySelectorAll("div.logo div.logo-letter-hidden");
 
@@ -194,8 +190,7 @@
         </div>
 
         <div class="mobile-links">
-            <a class="menu">
-            </a>
+            <a class="menu" />
         </div>
     </nav>
 </section>
