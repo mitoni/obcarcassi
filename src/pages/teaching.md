@@ -48,6 +48,29 @@ Projected Form Bodies - Materialities – Environments first year project| Kyria
 ### University of Minho
 Additive manufacturing and construction automation | Bruno Figueiredo 2022
 
+## Invited Guest Lecturer
+Invited guest lecturer
+1.	“Digitally fabricated Earth and fiber-based materials” Inquiry into Biomaterial Architectures, Prof. Laia Mogas Soldevila, <b>University of Pennsylvania</b> , USA, September 2024 
+
+2.	“Mycelium-based composites: How to bond with Nature” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert , <b>ETH Zurich</b>, CH, April 2024 
+
+3.	“Material diets for climate-neutral construction” Material Kitchens: Mix Designs, Recipes, and Erroneous Imitation, Prof. Lola Ben-Alon, <b>Columbia GSAPP</b>, USA, February 2024
+
+4.	“Newtech for sustainability” Architecture for Landscape, Alessandro Terranova, <b>YAC Academy</b>, Bologna, IT, October 2023
+
+5.	“Mycelium-based composites: How to bond with Nature” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert, <b>ETH Zurich</b>, CH, April 2023
+
+6.	“Concevoir et construire avec la nature”  DPEA Architecture Post-Carbon, Prof. Jean-François Blassel, <b>École de l'architecture et du territoires paris-est Paris</b>, FR, May 2022
+
+7.	“Designing with nature” Retrofit and conservation of buildings, Prof. Laura Malighetti, <b>ABC Department Politecnico di Milano</b>, October 2021
+
+8.	“Biodesign in contemporary architecture”, Arch. Mario Cucinella, <b>SOS School of Sustainability master’s in Design for Sustainability</b>, Bologna, IT,  May 2021
+
+9.	“Biodesign in contemporary architecture” in Design and construction studio, Prof. Ingrid Paoletti <b>ABC Department Politecnico di Milano</b>, IT, February 2021
+
+10.	“Fast-growing bio-based materials for construction” PSCE_ Design of subsystems and building components, Prof. Andrea Mainini <b>ABC Department Politecnico di Milano</b>, IT, September2020
+
+
 ## Graduate Student Advisory
 ### 2022
 Castellanos Salamanca, Laura Giovanna; Ibrahim, Fatima, MYC-CET: Bio-fabrication, a negotiation of materiality between alive and inert ABC Department, Politecnico di Milano, IT. Teacher of reference: Prof. Dr. Ingrid Paoletti
