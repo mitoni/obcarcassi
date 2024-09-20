@@ -2,7 +2,7 @@
 title: Ndidi
 description: Innovation and ancestral knowledge 
 image: /data/images/ndidi-2.jpg
-type: research
+type: exhibition
 date: 2024-08-30
 ---
 NDIDI is a computationally designed stool made from earth-based and mezcal residues, selected for exhibition at Mexico Design Week 2024. 

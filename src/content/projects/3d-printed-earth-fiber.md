@@ -7,27 +7,22 @@ date: 2023-03-30
 ---
 Characterization of the optimal mix designs for 3D printed earth materials and structures, by linking microstructural development and soil science with material and structural property characterization and optimization of 3D printing methods. 
 
-![](/data/images/digital-earth-2.jpg)
-
-![](/data/images/digital-earth-3.jpg)
-
-![](/data/images/digital-earth-4.jpg)
-
-![](/data/images/digital-earth-4-1.jpg)
+![](/data/images/digital-earth-1.jpg)
 
 ![](/data/images/digital-earth-5.jpg)
 
-![](/data/images/digital-earth-6.jpg)
+![](/data/images/digital-earth-3.jpg)
 
-![](/data/images/digital-earth-7.jpg)
+![](/data/images/digital-earth-2.jpg)
+
+![](/data/images/digital-earth-4-1.jpg)
+
+![](/data/images/digital-earth-4.jpg)
 
 <p>
     <video src="/data/images/digital-earth.mp4" muted controls loop></video>
 </p>
 
-
-## Exhibition
-1014 space for ideas 2023 (New York City, USA) and London Craft Week 2024 (London. UK)
 
 ## Location
 Natural Materials Lab (Columbia University GSAPP)
@@ -49,7 +44,6 @@ Tashania Audrey Akemah, Mohammad Hossein Zowqi, Valery Kate Perez, EunJin Shin
 https://www.arch.columbia.edu/research/labs/17-natural-materials-lab/digital-pathways
 
 ## Publications
-O.B Carcassi, T. Akemah & L. Ben-Alon, (2024), 3D Printed Lightweight Earth-Fiber: From Tiles to Tessellations, 3D Printing and Additive Manufacturing (Biobased Design Special Issue), (accepted, forthcoming)
 
 O.B Carcassi, T. Akemah, Y. Maierdan, S. Kawashima, & L. Ben-Alon, (2024), Maximizing fiber content in 3D-printed earth materials: Printability, mechanical, thermal and environmental assessments,  Construction and Building Materials, 425, 135891, ISSN 0950-0618, DOI: 10.1016/j.conbuildmat.2024.135891.
 
