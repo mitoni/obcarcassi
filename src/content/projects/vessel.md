@@ -1,7 +1,7 @@
 ---
 title: Digital Vessel
 description: Contour Crafting 
-image: /data/images/vessel-1.jpg
+image: /data/images/vessel-3.jpg
 type: exhibition
 date: 2024-05-30
 ---
