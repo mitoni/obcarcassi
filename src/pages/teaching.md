@@ -49,7 +49,7 @@ Projected Form Bodies - Materialities – Environments first year project| Kyria
 Additive manufacturing and construction automation | Bruno Figueiredo 2022
 
 ## Invited Guest Lecturer
-Invited guest lecturer
+
 1.	“Digitally fabricated Earth and fiber-based materials” Inquiry into Biomaterial Architectures, Prof. Laia Mogas Soldevila, <b>University of Pennsylvania</b> , USA, September 2024 
 
 2.	“Mycelium-based composites: How to bond with Nature” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert , <b>ETH Zurich</b>, CH, April 2024 
