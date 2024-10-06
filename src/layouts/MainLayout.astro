@@ -81,4 +81,11 @@ import Navbar from "../components/navbar.astro";
             color: rgba(var(--red), 0.8);
         }
     }
+
+    @media (prefers-color-scheme: dark) {
+        footer div {
+            background-color: rgba(var(--blue), 0.8) !important;
+            border: 1px solid rgba(var(--white), 0.05);
+        }
+    }
 </style>

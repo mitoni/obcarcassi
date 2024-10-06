@@ -1,6 +1,7 @@
 :root {
   --red: 219, 68, 55;
   --black: 17, 17, 18;
+  --blue: 32, 33, 36;
   --white: 255, 255, 255;
 
   --blur: 30px;
@@ -61,5 +62,15 @@ li {
 
   body {
     font-size: 14px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --red: 253, 92, 99;
+  }
+  body {
+    background-color: rgb(var(--blue));
+    color: #ffffff;
   }
 }
