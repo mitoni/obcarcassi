@@ -1,5 +1,5 @@
 ---
-title: 3D printed fiber and earth materials
+title: 3D printed fiber and earth
 description: Innovation with natural materials 
 image: /data/images/digital-earth-1.jpg
 type: research
