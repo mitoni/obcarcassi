@@ -15,7 +15,7 @@ Co-Pi for the S2P Innovation-challenge at PoliHub (Politecnico di Milano) and Of
 
 Co-organizer for international Workshop “How to Develop a 3D printable mycelium-based composite?” (Politecnico di Milano), (€2,000)
 
-First prize for World-level Achievements of PhD Candidates (Politecnico di Milano)
+First prize for World-level Achievements of PhD Candidates (Politecnico di Milano), (€1,000))
 
 ### 2020
 First Prize IDEA League scholarship (Politecnico di Milano) (€8,000)
