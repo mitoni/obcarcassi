@@ -38,7 +38,8 @@ At **SOS School of Sustainability**
 Role: Faculty member
 - Prepared lectures on materiality and textures of construction materials
 
-### Teaching Assistant
+## Teaching Assistant
+
 #### 2021-2022
 Scale-up! DASTU Department Politecnico di Milano, IT. Teacher of reference: Prof. Dr. Simone Giostra
 
