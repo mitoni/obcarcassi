@@ -26,7 +26,7 @@ For the final stage, 10 students collaborated in teams to create inventive earth
 ![](/data/images/hack-8.jpg)
 
 <p>
-    <video src="/data/images/hack-1.mov" muted controls loop></video>
+    <video src="/data/images/hack-1.mov" muted controls loop autoplay></video>
 </p>
 
 ## Location

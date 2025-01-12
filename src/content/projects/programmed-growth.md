@@ -28,7 +28,7 @@ In terms of resource optimization, the FS that optimizes the use of the material
 ![](/data/images/programmed-growth-5.jpg)
 
 <p>
-    <video src="/data/images/programmed-growth-1.mp4" muted controls></video>
+    <video src="/data/images/programmed-growth-1.mp4" muted controls autoplay></video>
 </p>
 
 ## Location

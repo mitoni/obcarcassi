@@ -35,7 +35,7 @@ New York City, USA
 ## Collaborators
 Prof. Lola Ben-Alon (PI, Columbia University)
 
-## Research assistants:
+## Research assistants
 Tashania Audrey Akemah
 
 ## Contribution
@@ -49,7 +49,7 @@ Tashania Audrey Akemah
 https://www.arch.columbia.edu/research/labs/17-natural-materials-lab/mashrabiya
 
 ## Publications
-O.B Carcassi, T. Akemah & L. Ben-Alon, (2024), 3D Printed Lightweight Earth-Fiber: From Tiles to Tessellations, 3D Printing and Additive Manufacturing (Biobased Design Special Issue), (accepted, forthcoming)
+O.B Carcassi, T. Akemah & L. Ben-Alon, (2024), 3D Printed Lightweight Earth-Fiber: From Tiles to Tessellations, 3D Printing and Additive Manufacturing (Biobased Design Special Issue), https://doi.org/10.1089/3dp.2023.0341
 
 
 ## Photo Credits

@@ -20,7 +20,7 @@ Characterization of the optimal mix designs for 3D printed earth materials and s
 ![](/data/images/digital-earth-4.jpg)
 
 <p>
-    <video src="/data/images/digital-earth.mp4" muted controls loop></video>
+    <video src="/data/images/digital-earth.mp4" muted controls loop autoplay></video>
 </p>
 
 

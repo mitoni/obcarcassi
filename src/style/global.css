@@ -65,7 +65,7 @@ li {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --red: 253, 92, 99;
   }
@@ -74,3 +74,4 @@ li {
     color: #ffffff;
   }
 }
+*/

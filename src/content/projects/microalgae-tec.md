@@ -12,7 +12,7 @@ The final prototype has been exhibited during the «Eco-visionaires» at the Roy
 ![](/data/images/algae-2.jpg)
 
 <p>
-    <video src="/data/images/algae-1.mov" muted controls></video>
+    <video src="/data/images/algae-1.mov" muted controls autoplay></video>
 </p>
 
 ![](/data/images/algae-3.jpg)
