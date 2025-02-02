@@ -29,7 +29,7 @@ By combining advanced technologies and codesign principles with the manual skill
 ![](/data/images/ndidi-4.jpg)
 
 <p>
-    <video src="/data/images/ndidi-computation.mp4" muted controls autoplay></video>
+    <video src="/data/images/ndidi-computation.mp4" muted controls loop  autoplay></video>
 </p>
 
 ## Exhibition

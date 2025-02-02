@@ -26,7 +26,7 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            background-color: rgba(var(--white), 0.8);
+            background-color: rgba(var(--white), 0.6);
             backdrop-filter: blur(var(--blur));
             -webkit-backdrop-filter: blur(var(--blur));
             transform: translateX(100%);
@@ -42,7 +42,7 @@
             color: rgb(var(--red));
             font-size: 1.5rem;
             gap: var(--spacing-rg);
-       }
+        }
 
         .menu {
             -webkit-mask: url(/assets/menu.svg) no-repeat center;
@@ -90,6 +90,10 @@
         padding: var(--spacing-rg) var(--spacing-lg);
         box-shadow: var(--shadow);
         border-radius: var(--rounded-full);
+
+        & a {
+            text-decoration: none;
+        }
     }
 
     .links {
@@ -127,12 +131,12 @@
         transition: width var(--time-sm) ease-in-out;
     }
 
-/*    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
         nav {
             background-color: rgba(var(--blue), 0.8);
             border: 1px solid rgba(var(--white), 0.05);
         }
-    }*/
+    }
 </style>
 
 <script>
@@ -208,4 +212,6 @@
     <a href="/research">Research</a> 
     <a href="/teaching">Teaching</a>
 </section>
+
+
 
