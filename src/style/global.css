@@ -34,7 +34,9 @@ body {
 
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--red), 0.8);
+
 
   transition: color var(--time-rg) ease-in-out;
 }
