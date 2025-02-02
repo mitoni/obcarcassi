@@ -4,6 +4,7 @@ description:  H.O.R.T.U.S. Z.K.M and Urban Algae Folly 2.0
 image: /data/images/supertree-1.jpg
 type: exhibition
 date: 2015-10-30
+orderDate: 2023-04-30
 ---
 
 Trees, once emblematic of our traditional view of nature, now serve as carbon sinks, shade providers, flood barriers, construction materials, and marketing symbols—adapting to the ever-growing demands of the urban environment. However, their natural evolution is too slow to meet these challenges. 

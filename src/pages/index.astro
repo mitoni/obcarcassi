@@ -4,8 +4,8 @@ import { getCollection } from "astro:content";
 
 const projects = (await getCollection("projects"))
     .sort((a, b) => {
-            const aDate = (a.data.date ?? new Date(0)).valueOf();
-            const bDate = (b.data.date ?? new Date(0)).valueOf()
+            const aDate = (a.data.orderDate ?? a.data.date ?? new Date(0)).valueOf();
+            const bDate = (b.data.orderDate ?? b.data.date ?? new Date(0)).valueOf()
             return bDate - aDate
     })
 ---
