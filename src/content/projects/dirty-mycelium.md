@@ -47,3 +47,6 @@ Curated by: Grace Schleck
 ## External links
 https://movement.barnard.edu/events/mycelium-movement-research-and-exhibition-student-artist-residence-grace-schleck
 
+
+## Publications
+Carcassi, O.B., Schlek G., & Ben-Alon L. (2025). Dirty mycelium: Materials and structures under the microscope. In Structures and Architecture. REstructure REmaterialize REthink REuse - Rinke & Frier Hvejsel (Eds) 10. DOI: https://10.1201/9781003658641-120
