@@ -2,6 +2,29 @@
 layout: ../layouts/BasicMarkdownLayout.astro
 ---
 ## Lead Instructor Experience
+
+### 2025
+#### “Muddy Making: Natural Materials in Digital Commons” Columbia GSAPP Master’s students.
+At **Columbia GSAPP**.
+
+With Prof. Dr. Lola Ben-Alon
+
+Role: Lead Instructor during 15 days Summer workshop:
+- Supervised and trained master students in 3D pritable models and digital design examples
+- Supervised students during the design phase to assure the geometrical integrity of 3D models
+- Supervised students while using different 3D printers,  e.g. WASP Delta 40100, Scara Elite v2, PotterBot
+- Developed natural material 3D printable pastes (in terms of earth, natural fibers) used during the workshop
+
+### 2025
+#### “Design and fabricate unique tile shape unisng 3D printing”
+Master’s students.
+At **ENSA Paris**.
+
+Role: Lead Instructor during 10 days workshop:
+- Supervised and trained master students in 3D pritable models and tassellation logics
+- Supervised students during the design phase to assure the printability of 3D models
+- Defined the natural material mixtures (in terms of earth, natural fibers) used during the workshop
+
 ### 2024
 #### “3D Printed Earth – HACKATHON” Columbia GSAPP Master’s students.
 At **Columbia Engineering**, Carleton Laboratory.
@@ -68,31 +91,35 @@ Projected Form Bodies - Materialities – Environments first year project| Kyria
 Additive manufacturing and construction automation | Bruno Figueiredo 2022
 
 ## Invited Guest Lecturer
+1.	“Newtech for sustainability” Architecture for Landscape, Alessandro Terranova, **YAC Academy**, Bologna, IT, September 2025
+2.	Digitally fabricated Earth and fiber-based materials” Inquiry into Biomaterial Architectures, Prof. Laia Mogas Soldevila, **University of Pennsylvania**, USA, September 2025 
+3.	“Mycelium-based biocomposites and research at Columbia University” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert, **ETH Zurich**, CH, April 2025 
+4.	“Designing for regenerative cultures” Workshop WORKSHOP EUROPÉEN 2025 : "Sharing knowledge for reducing impacts", Francesca Contrada, **ENSA Paris**, Paris, FR, February 2025
+5.	“Newtech for sustainability” Architecture for Landscape, Alessandro Terranova, **YAC Academy**, Bologna, IT, December 2024
+6. “Additive manufacturing of Natural Materials” Construction Technology 2. Resource: The Contemporary Vernacular. Prof. Gustavo Lopez Mendoza, **The New School- Parsons School of Design**, USA, October 2024
 
-1. “Additive manufacturing of Natural Materials” Construction Technology 2. Resource: The Contemporary Vernacular. Prof. Gustavo Lopez Mendoza, **The New School- Parsons School of Design**, USA, October 2024
+7. “Digitally fabricated Earth and fiber-based materials” Inquiry into Biomaterial Architectures, Prof. Laia Mogas Soldevila, **University of Pennsylvania**, USA, September 2024
 
-2. “Digitally fabricated Earth and fiber-based materials” Inquiry into Biomaterial Architectures, Prof. Laia Mogas Soldevila, **University of Pennsylvania**, USA, September 2024
+8. “Mycelium-based composites: How to bond with Nature” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert, ETH Zurich, CH, April 2024
 
-3. “Mycelium-based composites: How to bond with Nature” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert, ETH Zurich, CH, April 2024
+9. “Material diets for climate-neutral construction” Material Kitchens: Mix Designs, Recipes, and Erroneous Imitation, Prof. Lola Ben-Alon, **Columbia GSAPP**, USA, February 2024
 
-4. “Material diets for climate-neutral construction” Material Kitchens: Mix Designs, Recipes, and Erroneous Imitation, Prof. Lola Ben-Alon, **Columbia GSAPP**, USA, February 2024
+10. “Newtech for sustainability” Architecture for Landscape, Alessandro Terranova, **YAC Academy**, Bologna, IT, October 2023
 
-5. “Newtech for sustainability” Architecture for Landscape, Alessandro Terranova, **YAC Academy**, Bologna, IT, October 2023
+11. “Mycelium-based composites: How to bond with Nature” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert, **ETH Zurich**, CH, April 2023
 
-6. “Mycelium-based composites: How to bond with Nature” CAS in Regenerative Materials - Essentials, Prof. Guillaume Habert, **ETH Zurich**, CH, April 2023
+12. “Concevoir et construire avec la nature” DPEA Architecture Post-Carbon, Prof. Jean-Francois Blasses, **École de l'architecture et du territoires paris-est Paris**, FR, May 2022
 
-7. “Concevoir et construire avec la nature” DPEA Architecture Post-Carbon, Prof. Jean-Francois Blasses, **École de l'architecture et du territoires paris-est Paris**, FR, May 2022
+13. “Designing with nature” Retrofit and conservation of buildings **ABC Department Politecnico di Milano**, October 2021
 
-8. “Designing with nature” Retrofit and conservation of buildings **ABC Department Politecnico di Milano**, October 2021
+14. “Biodesign in contemporary architecture” **SOS School of Sustainability** master’s in Design for Sustainability, Arch. Mario Cucinella, Bologna, IT, May 2021
 
-9. “Biodesign in contemporary architecture” **SOS School of Sustainability** master’s in Design for Sustainability, Arch. Mario Cucinella, Bologna, IT, May 2021
-
-10. “Biodesign in contemporary architecture” Design and construction studio , Prof. Ingrid Paoletti, **ABC Department Politecnico di Milano**, IT, February 2021
+15. “Biodesign in contemporary architecture” Design and construction studio , Prof. Ingrid Paoletti, **ABC Department Politecnico di Milano**, IT, February 2021
 Olga Beatrice Carcassi CV | 5
 
-11. “Fast-growing bio-based materials for construction” PSCE_ Design of subsystems and building components, Prof. Andrea Mainini, **ABC Department Politecnico di Milano**, IT, September2020
+16. “Fast-growing bio-based materials for construction” PSCE_ Design of subsystems and building components, Prof. Andrea Mainini, **ABC Department Politecnico di Milano**, IT, September2020
 
-12. “Biobased materials for climate-neutral construction” RIGENERA, **Ordine degli Architetti di Reggio Emilia**, IT, September 2022
+17. “Biobased materials for climate-neutral construction” RIGENERA, **Ordine degli Architetti di Reggio Emilia**, IT, September 2022
 
 
 ## Graduate Student Advisory
