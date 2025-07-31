@@ -53,8 +53,13 @@ Students collaborates in teams to create inventive tessellation results. These d
 ## Link to the lecture
 https://www.youtube.com/watch?v=vl0uPrsvxgE
 
+## Link to the workshop catalogue
+https://parisvaldeseinearchifr-my.sharepoint.com/personal/emma_filipponi_paris-valdeseine_archi_fr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Femma%5Ffilipponi%5Fparis%2Dvaldeseine%5Farchi%5Ffr%2FDocuments%2FAllegati%2FGABARIT%2Dcatalogue%2Dworkshop%20Semi%2DFinal%5F18%2E07%2E2025%2Epdf&parent=%2Fpersonal%2Femma%5Ffilipponi%5Fparis%2Dvaldeseine%5Farchi%5Ffr%2FDocuments%2FAllegati&ga=1
+
+
 ## Location
 ENSA Paris (ENSAPVS: École Nationale d'Architecture Paris Val de Seine, Paris, France)
+
 https://www.paris-valdeseine.archi.fr/formations/workshops-et-voyages-pedagogiques/workshop-europeen-2025.html
 
 ## Organizers
@@ -78,7 +83,6 @@ Le cerf-savant: Sylvia Anoma Diallo, Zohar Paz, Kenzo Precigout, Rayan Zouaoui &
 - Supervised and trained master students in 3D pritable models and tassellation logics
 - Supervised students during the design phase to assure the printability of 3D models
 - Defined the natural material mixtures (in terms of earth, natural fibers) used during the workshop.
-
 
 ## Photo and Video Credits
 ENSAParisValDeSeine
