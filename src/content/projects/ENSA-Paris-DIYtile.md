@@ -1,6 +1,6 @@
 ---
 title: Bespoke DIY tile 
-description: 10 days Workshop 
+description: 10 days Workshop
 image: /data/images/diytile-1.jpg
 type: teaching
 date: 2025-02-15
@@ -26,32 +26,39 @@ Students collaborates in teams to create inventive tessellation results. These d
 |![](/data/images/diytile-9.jpg)|![](/data/images/diytile-10.jpg)|
 
 
-Modul'terre Group
+**Modul'terre Group**
 
 ![](/data/images/diytile-1.gif)
 
-HALF-MOON SUSTAINABLE TILES Group
+**HALF-MOON SUSTAINABLE TILES Group**
 
 ![](/data/images/diytile.gif)
 
-KAÏTRILLA Group
+**KAÏTRILLA Group**
 
 ![](/data/images/diytile-2.gif)
 
-TOMETTE Group
+**TOMETTE Group**
 
 ![](/data/images/diytile-3.gif)
 
-Raw Waves Group
+**Raw Waves Group**
 
 ![](/data/images/diytile-4.gif)
 
-Le cerf-savant Group
-
+**Le cerf-savant Group**
 ![](/data/images/diytile-5.gif)
+
+
+## Link to the lecture
+https://www.youtube.com/watch?v=vl0uPrsvxgE
 
 ## Location
 ENSA Paris (ENSAPVS: École Nationale d'Architecture Paris Val de Seine, Paris, France)
+https://www.paris-valdeseine.archi.fr/formations/workshops-et-voyages-pedagogiques/workshop-europeen-2025.html
+
+## Organizers
+Prof. Francesca Contrada et Prof. Emma Filipponi
 
 ## Collaborators
 Arthur Parami (Archi Solidaire)
