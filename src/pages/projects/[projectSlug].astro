@@ -1,17 +1,17 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
 import type { GetStaticPaths } from "astro";
-import { getCollection, getEntry } from "astro:content"
+import { getCollection, getEntry, render } from "astro:content"
 
 export const getStaticPaths = (async () => {
 const projects = await getCollection("projects");
-    return projects.map(project => ({params: {projectSlug: project.slug}}));
+    return projects.map(project => ({params: {projectSlug: project.id}}));
 }) satisfies GetStaticPaths;
 
 const { projectSlug } = Astro.params
 
-const project = await getEntry("projects", projectSlug);
-const { Content } = await project.render();
+const project = await getEntry("projects", projectSlug)!;
+const { Content } = await render(project);
 ---
 <style is:global>
     @media (max-width: 768px) {
@@ -59,7 +59,7 @@ const { Content } = await project.render();
       margin-block-end: inherit;
     }
 
-    img, video {
+    img:not(.no-shadow), video {
       max-width: min(1024px, 100%);
       max-height: min(1024px, 75vh);
       margin: var(--spacing-rg) 0;
@@ -75,6 +75,21 @@ const { Content } = await project.render();
 
     .subtitle {
         color: rgba(var(--red), 0.8);
+    }
+
+    table {
+        width: 100%;
+    }
+
+    td {
+        padding: var(--spacing-rg);
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
     }
 </style>
 
